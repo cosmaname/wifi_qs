@@ -30,4 +30,4 @@ jobs:
        automatic_release_tag: "latest"
        title: "Auto build"
        files: |
-         /home/runner/work/wifi_qs/app/build/outputs/apk/debug/app-debug.apk
+         app/build/outputs/apk/debug/app-debug.apk
