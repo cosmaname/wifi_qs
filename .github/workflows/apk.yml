@@ -20,6 +20,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build Debug APK
       run: ./gradlew app:assembleDebug
+    - name: Check build
+      run: ls -ltR app/
     - name: Releasing using Hub
       uses: marvinpinto/action-automatic-releases@latest
       with:
